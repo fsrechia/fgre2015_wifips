@@ -3,8 +3,8 @@
 import MySQLdb
 
 ## Database Config.
-dbhost = '10.11.17.1'
-#dbhost = '[2001:6a8:1d80:2041:225:90ff:fe1d:24d8]'
+#dbhost = '10.11.17.1'
+dbhost = '[2001:6a8:1d80:2041:225:90ff:fe1d:24d8]'
 dbuser = 'root'
 dbpwd = 'password'
 dbname = 'fgreproject'
