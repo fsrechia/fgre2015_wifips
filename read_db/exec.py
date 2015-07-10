@@ -51,22 +51,20 @@ def run_query(dbhost, dbuser, dbpass, dbname, query, dump_csv=True, csv_op_name)
 
 def main():
 	logger.info('Running main()')
-	#file_name = str(sys.argv[1])
-	#print file_name
-	#logger.info('File name is set to ' + file_name)
 
 	query = """SELECT * FROM (SELECT id, session_id, rssi, ssid, timestamp, robot_id, loc_x, loc_y,
-@id_id:=CASE WHEN @id_session_id <> session_id THEN 0 ELSE @id_id+1 END as rn,
-@id_session_id := session_id AS clset
-FROM
-(SELECT @id_session_id := -1) s,
-(SELECT @id_id := -1) c,
-(SELECT * FROM rssi_values ORDER BY session_id, id, rssi) t) x WHERE rn < 5"""
+	@id_id:=CASE WHEN @id_session_id <> session_id THEN 0 ELSE @id_id+1 END as rn,
+	@id_session_id := session_id AS clset
+	FROM
+	(SELECT @id_session_id := -1) s,
+	(SELECT @id_id := -1) c,
+	(SELECT * FROM rssi_values ORDER BY session_id, id, rssi) t) x WHERE rn < 5"""
 
-    logger.info("running query : {}".format(query))
-    result = run_query(dbhost, dbuser, dbpwd, dbname, query, True, csv_name)
+	logger.info("running query : {}".format(query))
+	result = run_query(dbhost, dbuser, dbpwd, dbname, query, True, csv_name)
 
-    logger.info('csv output generated: {}'.format(csv_name))
+	logger.info('csv output generated: {}'.format(csv_name))
+	file_name = csv_name
 
 	logger.info('Print the output')
 	output = parsing_file(file_name)
