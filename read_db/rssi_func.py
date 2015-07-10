@@ -12,6 +12,7 @@ def rss_to_distance(rssi, ref_rssi, alpha):
 	return k*float(pow(10, float(loss)/(float(alpha)*10)))
 
 def centroid_weighted(output):
+	g = open("output.csv", "w")
 	def _calculating(lst): # estimated location
 		tmp = zip(*lst)
 		powers = tmp[0]	# three powers
@@ -43,9 +44,6 @@ def centroid_weighted(output):
 
 	def _error_distance(output, loc_e, k):
 		loc = output["robots"][k] # the criterion (y)
-		print "robots: "
-		print loc
-
 		return (loc_e[0] - loc[0], loc_e[1] - loc[1])
 
 	output["three_powers"] = {}
@@ -68,11 +66,13 @@ def centroid_weighted(output):
 
 	result = [] # estimated locations for each session id
 
+	g = open("output.csv", "w")
+
 	for (k, lst) in output["three_powers"].items():
-		print "session id: " + str(k)
-		print "estimated location: "
+		g.write("session id, " + str(k) + "\n")
+		loc = output["robots"][k]
+		g.write("robots location, (" + str(loc[0]) + ", " + str(loc[1]) + ")\n")
 		val = _calculating(lst)
-		print val
-		print "error distance:"
-		print _error_distance(output, val, k)
-		print "\n"
+		g.write("estimated location, (" + str(val[0]) + ", " + str(val[1]) + ")\n")
+		err = _error_distance(output, val, k)
+		g.write("error distance, (" + str(err[0]) + ", " + str(err[1]) + ")\n\n")
