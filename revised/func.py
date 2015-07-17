@@ -112,6 +112,7 @@ def get_estimate(out, alpha):
 
 				rk_lst[k][m].append(selected_distance[k][n] * pow(10, (selected_powers[k][n] - pk[m]) / (10 * alpha[k])))
 
+		print str(k) + ": " + str(rk_lst[k]) + "\n"
 	rk = {}
 
 	for k in selected_powers.keys():
@@ -122,10 +123,9 @@ def get_estimate(out, alpha):
 				rk[k] = []
 			rk[k].append(float(sum(rk_lst[k][n])) / len(rk_lst[k][n]))
 
-	for k in rk.keys():
-		print str(k) + ": " + str(rk[k])
-
 	estimated_point = {}
+
+	h_lst = {}
 
 	for k in rk.keys():
 		if estimated_point.get(k, None) == None:
@@ -145,6 +145,12 @@ def get_estimate(out, alpha):
 				f_point_j = f_point[idx_j]
 				d = get_distance(f_point_i, f_point_j)
 				l = ((ri**2) - (rj**2) + (d**2)) / (2*d)
+
+				if h_lst.get(k, None) == None:
+					h_lst[k] = []
+
+				h_lst[k].append((ri**2) - (l**2))
+
 				h = sqrt(abs((ri**2) - (l**2)))
 				(x0_1, y0_1) = ((l/d)*(f_point_j[0] - f_point_i[0]) + (h/d)*(f_point_j[1] - f_point_i[1]) + f_point_i[0], (l/d)*(f_point_j[1] - f_point_i[1]) - (h/d)*(f_point_j[0] - f_point_i[0]) + f_point_i[1])
 				(x0_2, y0_2) = ((l/d)*(f_point_j[0] - f_point_i[0]) - (h/d)*(f_point_j[1] - f_point_i[1]) + f_point_i[0], (l/d)*(f_point_j[1] - f_point_i[1]) + (h/d)*(f_point_j[0] - f_point_i[0]) + f_point_i[1])
@@ -175,15 +181,27 @@ def get_estimate(out, alpha):
 		result[k] = (float(sum_x) / n, float(sum_y) / n)
 
 	errors = {}
+	error_distance = {}
+
+	output_file = open("output.csv", "w")
+	output_file.write("session id, alpha, estimated, actual, error, error_distance\n")
 
 	for k in result.keys():
-		print str(k) + "- alpha: " + str(alpha[k])
-		print str(k) + "- estimated: " + str(result[k])
-		print str(k) + "- actual: " + str(out["robots"][k])
+#		print str(k) + "- alpha: " + str(alpha[k])
+#		print str(k) + "- estimated: " + str(result[k])
+#		print str(k) + "- actual: " + str(out["robots"][k])
+#		print str(k) + "- h_lst: " + str(h_lst[k])
+#		print str(k) + "- selected_powers: " + str(selected_powers[k])
+#		print str(k) + "- selected_distance: " + str(selected_distance[k])
+#		print str(k) + "- rks: " + str(rk[k])
 
 		(x, y) = result[k]
 		(a, b) = out["robots"][k]
 		errors[k] = (x-a, y-b)
+		error_distance[k] = get_distance(errors[k], (0,0))
 
-		print str(k) + "- error: " + str(errors[k])
-		print "\n"
+#		print str(k) + "- error: " + str(errors[k])
+#		print "\n"
+		output_file.write(str(k) + ", " + str(alpha[k]) + ", " + str(result[k]) + ", " + str(out["robots"][k]) + ", " + str(errors[k]) + ", " + str(error_distance[k]) + "\n")
+
+	output_file.close()
