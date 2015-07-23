@@ -1,0 +1,1165 @@
+<rspec generated="2015-07-10T08:33:03.373+02:00"
+    generated_by="jFed RSpec Editor" type="manifest"
+    xmlns="http://www.geni.net/resources/rspec/3"
+    xmlns:client="http://www.protogeni.net/resources/rspec/ext/client/1"
+    xmlns:delay="http://www.protogeni.net/resources/rspec/ext/delay/1"
+    xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1"
+    xmlns:jfed="http://jfed.iminds.be/rspec/ext/jfed/1"
+    xmlns:jfed-command="http://jfed.iminds.be/rspec/ext/jfed-command/1"
+    xmlns:jfed-ssh-keys="http://jfed.iminds.be/rspec/ext/jfed-ssh-keys/1"
+    xmlns:jfedBonfire="http://jfed.iminds.be/rspec/ext/jfed-bonfire/1"
+    xmlns:sharedvlan="http://www.protogeni.net/resources/rspec/ext/shared-vlan/1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geni.net/resources/rspec/3 http://www.geni.net/resources/rspec/3/request.xsd ">
+    <node client_id="zotacB1"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacB1"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11948">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacB1.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB1.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB1.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB1.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB1.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB1.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="17.5"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="73.5"/>
+        <emulab:vnode name="zotacB1"/>
+        <host name="zotacB1.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacC3"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacC3"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11911">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacC3.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC3.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC3.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC3.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC3.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC3.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="171.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="172.5"/>
+        <emulab:vnode name="zotacC3"/>
+        <host name="zotacC3.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacC4"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacC4"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11914">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacC4.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC4.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC4.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC4.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC4.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC4.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="171.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="225.5"/>
+        <emulab:vnode name="zotacC4"/>
+        <host name="zotacC4.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacD4"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacD4"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11930">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacD4.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD4.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD4.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD4.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD4.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD4.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="337.5"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="222.5"/>
+        <emulab:vnode name="zotacD4"/>
+        <host name="zotacD4.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacF2"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacF2"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11951">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacF2.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF2.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF2.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF2.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF2.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF2.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="631.5"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="129.5"/>
+        <emulab:vnode name="zotacF2"/>
+        <host name="zotacF2.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacE4"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacE4"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11941">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacE4.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE4.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE4.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE4.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE4.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE4.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="487.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="221.5"/>
+        <emulab:vnode name="zotacE4"/>
+        <host name="zotacE4.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacE3"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacE3"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11938">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacE3.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE3.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE3.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE3.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE3.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE3.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="481.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="175.5"/>
+        <emulab:vnode name="zotacE3"/>
+        <host name="zotacE3.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacE1"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacE1"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11929">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacE1.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE1.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE1.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE1.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE1.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE1.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="479.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="75.5"/>
+        <emulab:vnode name="zotacE1"/>
+        <host name="zotacE1.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacE2"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacE2"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11943">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacE2.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE2.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE2.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE2.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE2.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacE2.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="478.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="123.5"/>
+        <emulab:vnode name="zotacE2"/>
+        <host name="zotacE2.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacD3"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacD3"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11935">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacD3.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD3.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD3.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD3.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD3.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD3.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="337.5"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="174.5"/>
+        <emulab:vnode name="zotacD3"/>
+        <host name="zotacD3.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacD2"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacD2"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11942">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacD2.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD2.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD2.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD2.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD2.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD2.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="331.5"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="121.5"/>
+        <emulab:vnode name="zotacD2"/>
+        <host name="zotacD2.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacD1"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacD1"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11956">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacD1.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD1.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD1.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD1.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD1.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacD1.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="329.5"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="72.5"/>
+        <emulab:vnode name="zotacD1"/>
+        <host name="zotacD1.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacF1"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacF1"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11912">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacF1.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF1.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF1.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF1.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF1.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF1.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="629.5"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="76.5"/>
+        <emulab:vnode name="zotacF1"/>
+        <host name="zotacF1.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacC1"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacC1"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11919">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacC1.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC1.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC1.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC1.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC1.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC1.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="165.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="75.5"/>
+        <emulab:vnode name="zotacC1"/>
+        <host name="zotacC1.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacC2"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacC2"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11909">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacC2.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC2.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC2.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC2.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC2.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacC2.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="169.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="122.5"/>
+        <emulab:vnode name="zotacC2"/>
+        <host name="zotacC2.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacB4"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacB4"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11924">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacB4.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB4.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB4.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB4.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB4.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB4.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="17.5"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="217.5"/>
+        <emulab:vnode name="zotacB4"/>
+        <host name="zotacB4.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacB3"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacB3"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11946">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacB3.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB3.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB3.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB3.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB3.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB3.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="12.5"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="168.5"/>
+        <emulab:vnode name="zotacB3"/>
+        <host name="zotacB3.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacB2"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacB2"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11922">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacB2.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB2.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB2.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB2.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB2.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacB2.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="13.5"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="119.5"/>
+        <emulab:vnode name="zotacB2"/>
+        <host name="zotacB2.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacF3"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacF3"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11931">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacF3.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF3.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF3.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF3.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF3.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF3.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="635.5"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="175.5"/>
+        <emulab:vnode name="zotacF3"/>
+        <host name="zotacF3.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacF4"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacF4"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11916">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacF4.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF4.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF4.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF4.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF4.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacF4.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="640.5"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="217.5"/>
+        <emulab:vnode name="zotacF4"/>
+        <host name="zotacF4.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacG1"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacG1"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11939">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacG1.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG1.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG1.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG1.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG1.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG1.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="760.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="76.5"/>
+        <emulab:vnode name="zotacG1"/>
+        <host name="zotacG1.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacG2"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacG2"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11925">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacG2.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG2.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG2.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG2.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG2.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG2.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="757.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="115.5"/>
+        <emulab:vnode name="zotacG2"/>
+        <host name="zotacG2.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacG3"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacG3"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11936">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacG3.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG3.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG3.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG3.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG3.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG3.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="764.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="167.5"/>
+        <emulab:vnode name="zotacG3"/>
+        <host name="zotacG3.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacG4"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacG4"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11953">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacG4.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG4.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG4.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG4.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG4.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacG4.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="764.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="213.5"/>
+        <emulab:vnode name="zotacG4"/>
+        <host name="zotacG4.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacH1"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacH1"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11917">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacH1.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH1.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH1.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH1.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH1.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH1.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="884.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="73.5"/>
+        <emulab:vnode name="zotacH1"/>
+        <host name="zotacH1.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacH2"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacH2"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11955">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacH2.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH2.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH2.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH2.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH2.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH2.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="885.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="115.5"/>
+        <emulab:vnode name="zotacH2"/>
+        <host name="zotacH2.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacH3"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacH3"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11949">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacH3.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH3.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH3.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH3.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH3.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH3.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="887.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="158.5"/>
+        <emulab:vnode name="zotacH3"/>
+        <host name="zotacH3.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacH4"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacH4"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11920">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacH4.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH4.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH4.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH4.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH4.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacH4.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="890.5"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="215.5"/>
+        <emulab:vnode name="zotacH4"/>
+        <host name="zotacH4.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacI1"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacI1"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11915">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacI1.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI1.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI1.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI1.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI1.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI1.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="1013.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="72.5"/>
+        <emulab:vnode name="zotacI1"/>
+        <host name="zotacI1.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacI2"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacI2"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11934">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacI2.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI2.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI2.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI2.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI2.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI2.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="1012.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="109.5"/>
+        <emulab:vnode name="zotacI2"/>
+        <host name="zotacI2.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacI3"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacI3"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11918">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacI3.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI3.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI3.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI3.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI3.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI3.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="1018.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="157.5"/>
+        <emulab:vnode name="zotacI3"/>
+        <host name="zotacI3.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacI4"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacI4"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11945">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacI4.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI4.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI4.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI4.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI4.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacI4.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="1017.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="206.5"/>
+        <emulab:vnode name="zotacI4"/>
+        <host name="zotacI4.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacJ1"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacJ1"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11913">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacJ1.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ1.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ1.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ1.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ1.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ1.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="1131.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="73.5"/>
+        <emulab:vnode name="zotacJ1"/>
+        <host name="zotacJ1.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacJ2"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacJ2"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11947">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacJ2.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ2.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ2.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ2.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ2.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ2.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="1140.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="113.5"/>
+        <emulab:vnode name="zotacJ2"/>
+        <host name="zotacJ2.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacJ3"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacJ3"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11927">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacJ3.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ3.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ3.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ3.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ3.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ3.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="1134.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="149.5"/>
+        <emulab:vnode name="zotacJ3"/>
+        <host name="zotacJ3.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacJ4"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacJ4"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11954">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacJ4.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ4.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ4.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ4.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ4.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacJ4.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="1136.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="201.5"/>
+        <emulab:vnode name="zotacJ4"/>
+        <host name="zotacJ4.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacK1"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacK1"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11940">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacK1.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK1.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK1.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK1.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK1.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK1.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="1248.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="72.5"/>
+        <emulab:vnode name="zotacK1"/>
+        <host name="zotacK1.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacK2"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacK2"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11928">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacK2.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK2.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK2.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK2.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK2.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK2.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="1253.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="110.5"/>
+        <emulab:vnode name="zotacK2"/>
+        <host name="zotacK2.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacK3"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacK3"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11926">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacK3.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK3.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK3.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK3.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK3.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK3.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="1255.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="147.5"/>
+        <emulab:vnode name="zotacK3"/>
+        <host name="zotacK3.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="zotacK4"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+zotacK4"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11910">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="zotacK4.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK4.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK4.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK4.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK4.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="zotacK4.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="1256.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="205.5"/>
+        <emulab:vnode name="zotacK4"/>
+        <host name="zotacK4.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="robot1"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+mobile1"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11944">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="mobile1.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="mobile1.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="mobile1.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="mobile1.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="mobile1.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="mobile1.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="28.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="18.5"/>
+        <emulab:vnode name="mobile1"/>
+        <host name="robot1.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="robot2"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+mobile2"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11923">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="mobile2.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="mobile2.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="mobile2.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="mobile2.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="mobile2.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="mobile2.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="158.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="14.5"/>
+        <emulab:vnode name="mobile2"/>
+        <host name="robot2.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="robot3"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+mobile3"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11952">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="mobile3.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="mobile3.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="mobile3.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="mobile3.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="mobile3.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="mobile3.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="279.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="13.5"/>
+        <emulab:vnode name="mobile3"/>
+        <host name="robot3.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="robot4"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+mobile4"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11937">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="mobile4.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="mobile4.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="mobile4.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="mobile4.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="mobile4.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="mobile4.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="402.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="17.5"/>
+        <emulab:vnode name="mobile4"/>
+        <host name="robot4.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="robot5"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+mobile5"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11933">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="mobile5.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="mobile5.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="mobile5.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="mobile5.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="mobile5.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="mobile5.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="534.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="16.5"/>
+        <emulab:vnode name="mobile5"/>
+        <host name="robot5.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="robot6"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+mobile6"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11932">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="mobile6.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="mobile6.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="mobile6.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="mobile6.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="mobile6.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="mobile6.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="654.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="18.5"/>
+        <emulab:vnode name="mobile6"/>
+        <host name="robot6.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="robot7"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+mobile7"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11950">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="mobile7.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="mobile7.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="mobile7.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="mobile7.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="mobile7.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="mobile7.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="775.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="17.5"/>
+        <emulab:vnode name="mobile7"/>
+        <host name="robot7.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+    <node client_id="server1"
+        component_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+node+server1"
+        component_manager_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+authority+cm"
+        exclusive="true" sliver_id="urn:publicid:IDN+wilab2.ilabt.iminds.be+sliver+11921">
+        <sliver_type name="raw-pc"/>
+        <services>
+            <login authentication="ssh-keys"
+                hostname="server1.wilab2.ilabt.iminds.be" port="22" username="brechtv"/>
+            <login authentication="ssh-keys"
+                hostname="server1.wilab2.ilabt.iminds.be" port="22" username="wimvande"/>
+            <login authentication="ssh-keys"
+                hostname="server1.wilab2.ilabt.iminds.be" port="22" username="tteixeir"/>
+            <login authentication="ssh-keys"
+                hostname="server1.wilab2.ilabt.iminds.be" port="22" username="felipere"/>
+            <login authentication="ssh-keys"
+                hostname="server1.wilab2.ilabt.iminds.be" port="22" username="naray111"/>
+            <login authentication="ssh-keys"
+                hostname="server1.wilab2.ilabt.iminds.be" port="22" username="dbenha01"/>
+        </services>
+        <location x="62.0"
+            xmlns="http://jfed.iminds.be/rspec/ext/jfed/1" y="291.5"/>
+        <emulab:vnode name="server1"/>
+        <host name="server1.FProject.ch-geni-net.wilab2.ilabt.iminds.be"/>
+    </node>
+</rspec>
